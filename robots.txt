@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+
+Sitemap: https://locksmith9000.com/sitemap.xml
