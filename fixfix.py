@@ -41,7 +41,7 @@ for credentials in search_categories:
     c +=1
     parent_dir2 = f"/var/www/html/locksmith9000/lockandkey/{state}/{sub_ciy}/index.html"
     search_categories = open(parent_dir2, "r", encoding="utf8").read()
-    op= search_categories.replace("﻿", '').replace('#zip', zip_codes)
+    op= search_categories.replace("﻿", '').replace('aloomaid3', f'{sub_ciy_repl} {short_code}')
     
     fp = open(parent_dir2, "w", encoding='utf-8-sig')
     fp.writelines(op)
